@@ -6,7 +6,7 @@
 
 
 
-## text encryption : 
+## text encryption,decryption : 
 ![test](https://user-images.githubusercontent.com/57776872/226117768-a860fcc8-1c8f-4f54-b0ee-a9cde2d4298a.png)
 
 
