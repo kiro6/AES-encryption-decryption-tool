@@ -259,7 +259,7 @@ def full_test():
 
 
 def full_test_pdf_encryption():
-    with open('/home/x66/Desktop/test/report.pdf', 'rb') as file:
+    with open('plain.pdf', 'rb') as file:
         pdf_bytes = file.read()
     key = b"\x07\xba\x8d\xb7)J\xc6\x7f;buH\x90\x87\xc4\x08\xb2\xe7\xfa\xdb'E\x10\xfe\x8a?y\xf7k|\x84\x98"
     aes = AES(key)
@@ -271,12 +271,12 @@ def full_test_pdf_encryption():
         cipherlist.append(ciphertext)
     concatenated_cipher_bytes = b''.join(cipherlist)
 
-    with open('/home/x66/Desktop/test/report2.pdf', 'wb') as file:
+    with open('cipher.pdf', 'wb') as file:
         file.write(concatenated_cipher_bytes)
 
 
 def full_test_pdf_decryption():
-    with open('/home/x66/Desktop/test/report2.pdf', 'rb') as file:
+    with open('cipher.pdf', 'rb') as file:
         pdf_bytes = file.read()
     key = b"\x07\xba\x8d\xb7)J\xc6\x7f;buH\x90\x87\xc4\x08\xb2\xe7\xfa\xdb'E\x10\xfe\x8a?y\xf7k|\x84\x98"
     aes = AES(key)
@@ -288,12 +288,12 @@ def full_test_pdf_decryption():
         plainlist.append(plaintext)
     concatenated_cipher_bytes = unpad(b''.join(plainlist))
 
-    with open('/home/x66/Desktop/test/report3.pdf', 'wb') as file:
+    with open('plain.pdf', 'wb') as file:
         file.write(concatenated_cipher_bytes)
 
 
 def full_test_jpg_encryption():
-    with open('/home/x66/Desktop/test/test.jpg', 'rb') as file:
+    with open('plain.jpg', 'rb') as file:
         pdf_bytes = file.read()
     key = b"\x07\xba\x8d\xb7)J\xc6\x7f;buH\x90\x87\xc4\x08\xb2\xe7\xfa\xdb'E\x10\xfe\x8a?y\xf7k|\x84\x98"
     aes = AES(key)
@@ -305,11 +305,11 @@ def full_test_jpg_encryption():
         cipherlist.append(ciphertext)
     concatenated_cipher_bytes = b''.join(cipherlist)
 
-    with open('/home/x66/Desktop/test/test2.jpg', 'wb') as file:
+    with open('cipher.jpg', 'wb') as file:
         file.write(concatenated_cipher_bytes)
 
 def full_test_jpg_decryption():
-    with open('/home/x66/Desktop/test/test2.jpg', 'rb') as file:
+    with open('cipher.jpg', 'rb') as file:
         pdf_bytes = file.read()
     key = b"\x07\xba\x8d\xb7)J\xc6\x7f;buH\x90\x87\xc4\x08\xb2\xe7\xfa\xdb'E\x10\xfe\x8a?y\xf7k|\x84\x98"
     aes = AES(key)
@@ -321,7 +321,7 @@ def full_test_jpg_decryption():
         plainlist.append(plaintext)
     concatenated_cipher_bytes = unpad(b''.join(plainlist))
 
-    with open('/home/x66/Desktop/test/test3.jpg', 'wb') as file:
+    with open('plain.jpg', 'wb') as file:
         file.write(concatenated_cipher_bytes)
 
 
