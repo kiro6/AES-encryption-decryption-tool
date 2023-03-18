@@ -1,7 +1,9 @@
 # AES-tool  
 ### AES encryption and decryption tool for text , pdf , photos 
+#### note you can add any type of data by changing the extesntion of the file
 ### key size (256 , 192 , 128)
 ### mode ECP
+
 
 
 ## text encryption : 
@@ -14,3 +16,11 @@
 
 ## pdf decryption : 
 ![test3](https://user-images.githubusercontent.com/57776872/226117856-103a5052-3d6f-4c36-868d-7eee31434c57.png)
+
+
+## pdf encryption :
+![test4](https://user-images.githubusercontent.com/57776872/226118567-08c1cd50-9d13-42dd-89ad-c9b6a4335ed2.png)
+
+
+## pdf decryption :
+![test5](https://user-images.githubusercontent.com/57776872/226118579-04a9f858-c98c-4f62-be96-31c61c115b77.png)
