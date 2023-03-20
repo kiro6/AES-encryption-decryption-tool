@@ -23,7 +23,7 @@ options:
 ## encryption : 
 ```bash
 python3 aes.py -e test.jpg -o test2.jpg -k be6c0c9857d8a7a0afe468fe46a2141a6c8d13e2592dadad4200e2913c357587
--> time to finish :  2.635785112
+output => time to finish :  2.635785112
 ```
 ## output : 
 ![3](https://user-images.githubusercontent.com/57776872/226442857-7b4f0d61-29ef-4fb1-b069-3cc9aa17948d.png)
