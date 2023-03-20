@@ -35,5 +35,7 @@ python3 aes.py -d test2.jpg -o test3.jpg -k be6c0c9857d8a7a0afe468fe46a2141a6c8d
 ```
 
 ## output:
-```time to finish :  2.559194137```
+```bash
+time to finish :  2.559194137
+```
 ![5](https://user-images.githubusercontent.com/57776872/226442959-821867c1-9945-4be1-97da-cb64474fbd50.png)
