@@ -1,26 +1,25 @@
 # AES-tool  
-### AES encryption and decryption tool for text , pdf , photos 
-#### note you can add any type of data by changing the extesntion of the file
-### key size (256 , 192 , 128)
+### AES encryption and decryption tool for files
+### key size (256 , 192 , 128) bits
 ### mode ECP
 
 
 
-## text encryption,decryption : 
-![test](https://user-images.githubusercontent.com/57776872/226117768-a860fcc8-1c8f-4f54-b0ee-a9cde2d4298a.png)
+## how to use :
+![1](https://user-images.githubusercontent.com/57776872/226442750-6ef913fa-12a7-4996-af8c-11106e37e608.png)
 
 
-## pdf encryption : 
-![test2](https://user-images.githubusercontent.com/57776872/226117798-dca94b41-83d5-4eb9-9e5d-0af245f83771.png)
+## encryption : 
+![2](https://user-images.githubusercontent.com/57776872/226442825-d1884173-83bb-4bc9-b841-84e66224a472.png)
 
 
-## pdf decryption : 
-![test3](https://user-images.githubusercontent.com/57776872/226117856-103a5052-3d6f-4c36-868d-7eee31434c57.png)
+## output : 
+![3](https://user-images.githubusercontent.com/57776872/226442857-7b4f0d61-29ef-4fb1-b069-3cc9aa17948d.png)
 
 
-## image encryption :
-![test4](https://user-images.githubusercontent.com/57776872/226118567-08c1cd50-9d13-42dd-89ad-c9b6a4335ed2.png)
+## decryption : 
+![4](https://user-images.githubusercontent.com/57776872/226442894-851c8614-0f4e-47ea-83c7-eff2281335fb.png)
 
 
-## image decryption :
-![test5](https://user-images.githubusercontent.com/57776872/226118579-04a9f858-c98c-4f62-be96-31c61c115b77.png)
+## output:
+![5](https://user-images.githubusercontent.com/57776872/226442959-821867c1-9945-4be1-97da-cb64474fbd50.png)
