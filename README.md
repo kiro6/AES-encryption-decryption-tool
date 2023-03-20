@@ -6,8 +6,19 @@
 
 
 ## how to use :
-![1](https://user-images.githubusercontent.com/57776872/226442750-6ef913fa-12a7-4996-af8c-11106e37e608.png)
+```bash
+python3 aes.py
+usage: aes.py [-h] [-e] [-d] [-o] [-k]
 
+AES tool using 128,192,256 key ECB mode
+
+options:
+  -h, --help       show this help message and exit
+  -e , --encrypt   path to the file you want to encrypt
+  -d , --decrypt   path to the file you want to decrypt
+  -o , --output    path to where you want the output to be
+  -k , --key       key 64,48,32 hexadecimal characters
+```
 
 ## encryption : 
 ![2](https://user-images.githubusercontent.com/57776872/226442825-d1884173-83bb-4bc9-b841-84e66224a472.png)
