@@ -6,7 +6,7 @@
 
 
 ## how to use :
-```
+```java
 python3 aes.py
 usage: aes.py [-h] [-e] [-d] [-o] [-k]
 
