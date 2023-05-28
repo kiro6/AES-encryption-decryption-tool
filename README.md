@@ -1,4 +1,4 @@
-# AES-tool  
+# AES-encryption-decryption-tool
 ### AES encryption and decryption tool for files
 ### key size (64,48,32) hexadecimal characters
 ### mode ECP
